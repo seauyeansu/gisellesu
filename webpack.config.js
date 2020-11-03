@@ -17,7 +17,13 @@ module.exports = {
                           'plugins': ['@babel/plugin-proposal-class-properties']}]
           }}},
           { test: /\.css$/, use: ['style-loader','css-loader']},
-]},
+       { test: /\.(png|jpe?g|gif)$/i,
+         use: {
+            loader: 'file-loader',
+          },
+       }, 
+    ],
+  },
   mode: 'development',
   plugins: [
     new HtmlWebpackPlugin({
