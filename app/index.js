@@ -1,25 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css'
-import Navbar from '../components/navbar/navbar.js';
-import { BrowserRouter as Router } from 'react-router-dom'; 
+import './index.css';
 
 class App extends React.Component {
 	render () {
 		return (
-			<Router>
+			<div>
 
-			<Navbar />
+			Hello World!
 
-			</Router>
+			</div>
 			)
 	}
 }
-	
-ReactDOM.render((
-	<Router>
+
+ReactDOM.render(
 	<App />,
-	</Router>
-	),
 	document.getElementById('app')
+
 	)
