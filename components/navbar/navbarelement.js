@@ -19,7 +19,6 @@ export const NavLink = styled(Link)`
 	padding: 0 1rem;
 	height: 100%;
 	cursor: pointer;
-	font-color:
 `;	
 
 export const Bars = styled(FaBars)`
@@ -37,7 +36,7 @@ export const Bars = styled(FaBars)`
 	}
 `;
 
-export const NavMenu = 	styled.div`
+export const NavMenu = styled.div`
 	display: flex;
 	align-items: right;
 	margin-right: 24px;
