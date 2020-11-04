@@ -8,7 +8,7 @@ import About from '../components/about/about.js';
 import Blog from '../components/blog/blog.js';
 import Contact from '../components/contact/contact.js';
 import Portfolio from '../components/portfolio/portfolio.js';
-import Body from '../components/body/body.js';
+
 
 class App extends React.Component {
 	render () {
@@ -23,7 +23,7 @@ class App extends React.Component {
 			 <Route path = "/portfolio" exact component={Portfolio} />
 			 <Route path = "/contact" exact component={Contact} />
 			 </Switch>
-         	<Body />
+         	
 			</Router>
 
 
