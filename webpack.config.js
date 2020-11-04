@@ -16,7 +16,7 @@ module.exports = {
                       '@babel/react',{
                           'plugins': ['@babel/plugin-proposal-class-properties']}]
           }}},
-          { test: /\.css$/, use: ['style-loader','css-loader']},
+          { test: /\.css$/, use: ['style-loader','css-loader'], include: /flexboxgrid/},
        { test: /\.(png|jpe?g|gif)$/i,
          use: {
             loader: 'file-loader',
