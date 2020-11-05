@@ -12,8 +12,6 @@ const Body = () => {
  		 <Col xs className = "col1">
      		<img src = {profilepic} alt = "pp" style = {{
 			  borderRadius: '50%',
-			  height: '150px',
-			  width: '125px',
 			  }} />
 		 </Col>
 		 <Col xs className = "col2">
@@ -27,7 +25,7 @@ const Body = () => {
 		<Grid fluid>
 		<Row>
 		 <Col xs className = "col3">
-		  I'm Web Developer Giselle Su.
+		  <h1>I'm Web Developer <br/> Giselle Su. </h1>
 		 </Col> 
 
 		 <Col xs className = "col4">
