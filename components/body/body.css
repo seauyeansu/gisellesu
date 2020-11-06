@@ -8,8 +8,8 @@
 .col2 {
   display: flex;
   height: '400px';
-  justify-content: left;
-  align-items: top;
+  align-items: center;
+  font-size: 26px;
 }
 
 
