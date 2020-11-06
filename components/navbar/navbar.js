@@ -8,7 +8,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavLink to = '/'>
-                    <img src = {GS} alt = "logo" width = "70px" height = "70px"/>
+                    <img src = {GS} alt = "logo" width = "175px" height = "175px"/>
                 </NavLink>
                 <Bars />
                 <NavMenu>
