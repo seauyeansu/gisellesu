@@ -14,14 +14,20 @@
 
 
 .col3 {
+  background: #D3D3D3;
   display: flex;
+  height: '400px';
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 26px;
 }
 
 .col4 {
+  background: #D3D3D3;
   display: flex;
+  height: '400px';
   justify-content: center;
   text-align: center;
+  font-size: 26px;
 }

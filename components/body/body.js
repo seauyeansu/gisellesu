@@ -7,6 +7,7 @@ import profilepic from './profilepic.jpg';
 import ProfiletextTween from '../animation/profiletexttween.js';
 
 
+
 const Body = () => {
 	return (
 		<div>
@@ -20,10 +21,23 @@ const Body = () => {
 				/>
      		</Grid>
      		<Grid item xs={6} className = 'col2'>
-     			<div id="profiletext">I'm Web Developer Giselle Su.</div>
+     			<div id="profiletext">Hi, I'm Front-end Developer Giselle Su. </div>
+     			
          	 	<ProfiletextTween />
+
     		 </Grid>
 		</Grid>
+
+		<Box height = {170} whiteSpace="nowrap"></Box>
+
+		<Grid container>
+     		<Grid item xs={6} className = 'col3'> 
+     			<Box> Front-end Development </Box>
+     		</Grid>
+     		<Grid item xs={6} className = 'col4'> 
+     			<Box> Coding Mentorship Program </Box>
+     		</Grid>
+     	</Grid>	
 		</div>
 	)
 }

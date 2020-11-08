@@ -17,8 +17,9 @@ class ProfiletextTween extends Component {
 	componentDidMount(){
 		// use the node ref to create the animation
 		this.ptContainer = document.getElementById("profiletext");
-    	this.ptTween = gsap.from(this.ptContainer, 2, {x: 150});
+    	this.ptTween = gsap.from(this.ptContainer, 1, {x: 300});
 	}
+
 
 	render() {
 		return (

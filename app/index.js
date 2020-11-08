@@ -33,7 +33,7 @@ class App extends React.Component {
 	
 ReactDOM.render((
 	<Router>
-	<App />,
+	<App />
 	</Router>
 	),
 	document.getElementById('app')
