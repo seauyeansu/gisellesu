@@ -20,7 +20,6 @@ class ProfiletextTween extends Component {
     	this.ptTween = gsap.from(this.ptContainer, 1, {x: 300});
 	}
 
-
 	render() {
 		return (
 			<div ref={div => this.ptContainer = div} />

@@ -34,10 +34,10 @@
 }
 
 .col3 {
-	background: #FAFAFA;
-	display: flex;
-	height: 160%;
-	position: relative;
+  background: #FAFAFA;
+  display: flex;
+  height: 160%;
+  position: relative;
     width: 35%;
     margin: auto;
     border-radius: 25px;
@@ -46,10 +46,10 @@
 }
 
 .col4 {
-	background: #FAFAFA;
-	display: flex;
-	height: 160%;
-	position: relative;
+  background: #FAFAFA;
+  display: flex;
+  height: 160%;
+  position: relative;
     width: 35%;
     margin: auto;
     border-radius: 25px;

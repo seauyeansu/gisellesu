@@ -1,6 +1,5 @@
 import React from 'react';
 import { Nav, NavLink, Bars, NavMenu } from './navbarelement.js';
-import { FaBars } from 'react-icons/fa';
 import GS from './gs.png';
 
 
@@ -13,16 +12,16 @@ const Navbar = () => {
                 </NavLink>
                 <Bars />
                 <NavMenu>
-                    <NavLink to='/about' activeStyle>
+                    <NavLink to='/about' active Style>
                         About
                     </NavLink>
-                    <NavLink to='/portfolio' activeStyle>
+                    <NavLink to='/portfolio' active Style>
                         Portfolio
                     </NavLink>
-                    <NavLink to='/blog' activeStyle>
+                    <NavLink to='/blog' active Style>
                         Blog
                     </NavLink>
-                    <NavLink to='/contact' activeStyle>
+                    <NavLink to='/contact' active Style>
                         Contact
                     </NavLink>
                 </NavMenu>  
