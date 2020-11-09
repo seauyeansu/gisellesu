@@ -2,6 +2,7 @@ import React from 'react'
 import './body.css';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
+import Container from '@material-ui/core/Container';
 import { whiteSpace } from '@material-ui/core/Box';
 import profilepic from './profilepic.jpg';
 import ProfiletextTween from '../animation/profiletexttween.js';
@@ -30,14 +31,12 @@ const Body = () => {
 
 		<Box height = {170} whiteSpace="nowrap"></Box>
 
-		<Grid container>
-     		<Grid item xs={6} className = 'col3'> 
-     			<Box> Front-end Development </Box>
-     		</Grid>
-     		<Grid item xs={6} className = 'col4'> 
-     			<Box> Coding Mentorship Program </Box>
-     		</Grid>
-     	</Grid>	
+		<Box className = 'row1'>I like to design and develop websites that are functionally and aesthetically pleasing.</Box>
+     	<Box className = 'row2'>
+ 			<Box className = 'col3'></Box>
+ 			<Box className = 'col4'></Box>
+     	</Box>
+
 		</div>
 	)
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, NavLink, Bars, NavMenu } from './navbarelement.js';
+import { FaBars } from 'react-icons/fa';
 import GS from './gs.png';
 
 
@@ -8,7 +9,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavLink to = '/'>
-                    <img src = {GS} alt = "logo" width = "175px" height = "175px"/>
+                    <img src = {GS} alt = "logo" width = "130px" height = "50px"/>
                 </NavLink>
                 <Bars />
                 <NavMenu>
