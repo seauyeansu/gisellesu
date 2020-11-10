@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
-import { FaBars } from 'react-icons/fa';
+import MenuIcon from '@material-ui/icons/Menu';
 
 export const Nav = styled.nav`
 	background: #FFFFFF;
@@ -21,7 +21,7 @@ export const NavLink = styled(Link)`
 	cursor: pointer;
 `;	
 
-export const Bars = styled(FaBars)`
+export const Bars = styled(MenuIcon)`
 	display: none;
 	color: #fff;
 

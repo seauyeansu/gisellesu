@@ -5,6 +5,11 @@ import Box from '@material-ui/core/Box';
 import { whiteSpace } from '@material-ui/core/Box';
 import profilepic from './profilepic.jpg';
 import ProfiletextTween from '../animation/profiletexttween.js';
+import CodeIcon from '@material-ui/icons/Code';
+import Table from '@material-ui/core/Table';
+import TableRow from '@material-ui/core/TableRow';
+import Button from '@material-ui/core/Button';
+import SchoolIcon from '@material-ui/icons/School';
 
 
 const Body = () => {
@@ -28,9 +33,51 @@ const Body = () => {
 
 		<Box className = 'row1'>I like to design and develop websites that are functionally and aesthetically pleasing.</Box>
      	<Box className = 'row2'>
- 			<Box className = 'col3'></Box>
- 			<Box className = 'col4'></Box>
-     	</Box>
+ 			<Box className = 'col3'>
+ 			  <Table className = 'table1'>
+ 			 	 <TableRow>
+ 			  		<CodeIcon />
+ 			  	 </TableRow>	
+ 			  	 <TableRow>
+ 			  	 	Front-end Developer
+ 			  	 </TableRow>
+ 			  	 <TableRow>
+ 			  	 	Tech Stack
+ 			  	 </TableRow>
+ 			  	 <TableRow>
+ 			  	 	Javascript, HTML, CSS, SASS, Reactjs
+ 			  	 </TableRow>
+ 			  	 <TableRow>
+ 			  	 	<Button variant="contained" color="primary">
+  						Learn more
+					</Button>
+ 			  	 </TableRow>	
+ 			  </Table>	 	
+ 			 </Box>
+ 			<Box className = 'col4'>
+ 			<Table className = 'table2'>
+ 			 	 <TableRow>
+ 			  		<SchoolIcon />
+ 			  	 </TableRow>	
+ 			  	 <TableRow>
+ 			  	 	Mentoring
+ 			  	 </TableRow>
+ 			  	 <TableRow>
+ 			  	 	Tech Stack
+ 			  	 </TableRow>
+ 			  	 <TableRow>
+ 			  	 	Javascript, HTML, CSS, SASS, Reactjs	
+ 			  	 </TableRow>
+ 			  	 <TableRow>
+ 			  	 	<Button variant="contained" color="primary">
+  						Learn more
+					</Button>
+ 			  	 </TableRow>	
+ 			  </Table>	 	
+ 			  </Box>
+			</Box>
+ 
+     	
 
 		</div>
 	)
