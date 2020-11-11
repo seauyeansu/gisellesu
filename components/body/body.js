@@ -4,6 +4,8 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import { whiteSpace } from '@material-ui/core/Box';
 import profilepic from './profilepic.jpg';
+import development from './development.png';
+import mentor from './mentor.png';
 import ProfiletextTween from '../animation/profiletexttween.js';
 import CodeIcon from '@material-ui/icons/Code';
 import Table from '@material-ui/core/Table';
@@ -36,16 +38,20 @@ const Body = () => {
  			<Box className = 'col3'>
  			  <Table className = 'table1'>
  			 	 <TableRow>
- 			  		<CodeIcon />
+ 			  		<img 
+					src = {development}
+					width = '10%'
+					height = '45%'
+					/>
  			  	 </TableRow>	
  			  	 <TableRow>
- 			  	 	Front-end Developer
+ 			  	 	<h2>Front-end Development</h2>
  			  	 </TableRow>
  			  	 <TableRow>
- 			  	 	Tech Stack
+ 			  	 	Pixel Perfect Web Design and Development
  			  	 </TableRow>
  			  	 <TableRow>
- 			  	 	Javascript, HTML, CSS, SASS, Reactjs
+ 			  	 	Languages I speak: Javascript, HTML, CSS, SASS, Reactjs
  			  	 </TableRow>
  			  	 <TableRow>
  			  	 	<Button variant="contained" color="primary">
@@ -57,16 +63,20 @@ const Body = () => {
  			<Box className = 'col4'>
  			<Table className = 'table2'>
  			 	 <TableRow>
- 			  		<SchoolIcon />
+ 			  		<img 
+					src = {mentor}
+					width = '12%'
+					height = '50%'
+					/>
  			  	 </TableRow>	
  			  	 <TableRow>
- 			  	 	Mentoring
+ 			  	 	<h2>Mentoring</h2>
  			  	 </TableRow>
  			  	 <TableRow>
- 			  	 	Tech Stack
+ 			  	 	Empowering Women in Tech
  			  	 </TableRow>
  			  	 <TableRow>
- 			  	 	Javascript, HTML, CSS, SASS, Reactjs	
+					Learn to code and network in technology to build a better future together
  			  	 </TableRow>
  			  	 <TableRow>
  			  	 	<Button variant="contained" color="primary">
@@ -76,8 +86,12 @@ const Body = () => {
  			  </Table>	 	
  			  </Box>
 			</Box>
- 
-     	
+
+ 			<Box height = {400} whiteSpace="nowrap"></Box>
+
+     	 	<Box className = 'portfolio'>
+ 			  <h1>My Portfolio</h1>
+ 			</Box>
 
 		</div>
 	)

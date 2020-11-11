@@ -1,1 +1,24 @@
-aboutme.css
+.title {
+	width: 50%;
+	display: flex;
+	margin: auto;
+	vertical-align: left;
+}
+.mystory {
+	background: #FAFAFA;
+	width: 50%;
+	display: flex;
+	margin : auto;
+	padding: 2.5%;
+	vertical-align: left;
+	border-radius: 25px;
+	z-index: 6;
+}
+
+.display {
+	background: #E8DAEF;
+	width: 300px;
+ 	height: 300px;
+  	-ms-transform: rotate(20deg); 
+  	transform: rotate(20deg);
+}

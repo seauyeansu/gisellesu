@@ -1,13 +1,13 @@
 .col1 {
   display: flex;
-  height: '400px';
+  height: 400%;
   justify-content: center;
   align-items: center;
 }
 
 .col2 {
   display: flex;
-  height: '400px';
+  height: 400%;
   align-items: center;
   font-size: 26px;
 }
@@ -15,7 +15,7 @@
 .row1 {
   background: #E8DAEF;
   display: flex;
-  height: 100px;
+  height: 120px;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -48,8 +48,13 @@
 }
 
   .table1 {
-    line-height: 200%;
+    height: 80%;
   }
+
+  .table2 {
+    height: 80%;
+  }
+
 
 .col4 {
   background: #FAFAFA;
@@ -63,4 +68,10 @@
     box-shadow: 10px;
   align-items: center;
   text-align: center;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
