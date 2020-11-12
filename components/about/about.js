@@ -12,8 +12,8 @@ const Aboutme = () => {
 		<Box className ='mystory'>
 			<div id = "mystory">
 			<p>My programming journey started a year ago, when I discovered that I could put some images and 
-			text together and publish them on the web with the help of technology. Passionate about building a 
-			better future, I put in 120% effort in my work and let it speak for itself.</p>
+			text together and publish them on the web. I am inquisitive by nature, quietly confident and eagerly 
+			developing while exploring Europe and Asia. As a mother of one, I enjoy parenting.</p>
 			</div>
 			<MystoryTween />
 		</Box>
