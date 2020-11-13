@@ -12,6 +12,7 @@ import Table from '@material-ui/core/Table';
 import TableRow from '@material-ui/core/TableRow';
 import Button from '@material-ui/core/Button';
 import SchoolIcon from '@material-ui/icons/School';
+import Portfolio from '../portfolio/portfolio.js';
 
 
 const Home = () => {
@@ -27,7 +28,7 @@ const Home = () => {
 				/>
      		</Grid>
      		<Grid item xs={6} className = 'col2'>
-     			<div id="profiletext">I'm Web Developer Giselle Su.</div>
+     			<div id="profiletext">I'm Front-end Developer Giselle Su.</div>
          	 	<ProfiletextTween />
     		 </Grid>
 		</Grid>
@@ -47,11 +48,11 @@ const Home = () => {
  			  	 <TableRow>
  			  	 	<h2>Front-end Development</h2>
  			  	 </TableRow>
- 			  	 <TableRow>
+ 			  	 <TableRow className = 'tr1'>
  			  	 	Pixel Perfect Web Design and Development
  			  	 </TableRow>
- 			  	 <TableRow>
- 			  	 	Languages I speak: Javascript, HTML, CSS, SASS, Reactjs
+ 			  	 <TableRow className = 'tr2'>
+ 			  	 	Languages: Javascript, HTML, CSS, SASS, Reactjs
  			  	 </TableRow>
  			  	 <TableRow>
  			  	 	<Button variant="contained" color="primary">
@@ -72,10 +73,10 @@ const Home = () => {
  			  	 <TableRow>
  			  	 	<h2>Mentoring</h2>
  			  	 </TableRow>
- 			  	 <TableRow>
+ 			  	 <TableRow className = 'tr3'>
  			  	 	Empowering Women in Tech
  			  	 </TableRow>
- 			  	 <TableRow>
+ 			  	 <TableRow className = 'tr4'>
 					Learn to code and network in technology to build a better future together
  			  	 </TableRow>
  			  	 <TableRow>
@@ -89,9 +90,11 @@ const Home = () => {
 
  			<Box height = {400} whiteSpace="nowrap"></Box>
 
-     	 	<Box className = 'portfolio'>
- 			  <h1>My Portfolio</h1>
- 			</Box>
+
+ 			  <Portfolio />
+
+
+
 
 		</div>
 	)

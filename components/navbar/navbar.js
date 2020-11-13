@@ -8,15 +8,12 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavLink to = '/'>
-                    <img src = {GS} alt = "logo" width = "130px" height = "50px"/>
+                    <img src = {GS} alt = "logo" />
                 </NavLink>
                 <Bars />
                 <NavMenu>
                     <NavLink to='/about' active Style>
                         About
-                    </NavLink>
-                    <NavLink to='/portfolio' active Style>
-                        Portfolio
                     </NavLink>
                     <NavLink to='/blog' active Style>
                         Blog

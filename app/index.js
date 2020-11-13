@@ -7,7 +7,6 @@ import Home from '../components/home/home.js';
 import About from '../components/about/about.js';
 import Blog from '../components/blog/blog.js';
 import Contact from '../components/contact/contact.js';
-import Portfolio from '../components/portfolio/portfolio.js';
 
 
 class App extends React.Component {
@@ -20,12 +19,10 @@ class App extends React.Component {
 			 <Route path = "/" exact component={Home} />
 			 <Route path = "/about" exact component={About} />
 			 <Route path = "/blog" exact component={Blog} />
-			 <Route path = "/portfolio" exact component={Portfolio} />
 			 <Route path = "/contact" exact component={Contact} />
 			 </Switch>
          	
 			</Router>
-
 
 			)
 	}

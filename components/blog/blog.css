@@ -1,1 +1,16 @@
-technicalblog.css
+.blogtitle {
+	width: 50%;
+	display: flex;
+	margin: auto;
+	vertical-align: left;
+}
+.myblog {
+	background: #FAFAFA;
+	width: 50%;
+	display: flex;
+	margin : auto;
+	padding: 2.5%;
+	vertical-align: left;
+	border-radius: 25px;
+	z-index: 6;
+}

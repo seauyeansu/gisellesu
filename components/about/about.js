@@ -6,18 +6,17 @@ import MystoryTween from '../animation/mystorytween.js';
 const Aboutme = () => {
 	return (
 		<div>
-		<Box className ='title'>
+		<Box className ='abouttitle'>
 			<h1>My Story</h1>
 		</Box>
 		<Box className ='mystory'>
 			<div id = "mystory">
-			<p>My programming journey started a year ago, when I discovered that I could put some images and 
-			text together and publish them on the web. I am inquisitive by nature, quietly confident and eagerly 
-			developing while exploring Europe and Asia. As a mother of one, I enjoy parenting.</p>
+			<p>Aesthetic makes me happy. I am inquisitive by nature, quietly confident and creatively 
+			developing while exploring the world. As a mother of one, I enjoy bonding with my little one.</p>
 			</div>
 			<MystoryTween />
 		</Box>
-		<Box className = 'display'> </Box>
+		<Box className = 'aboutdisplay'> </Box>
 		</div>
 	)
 }
