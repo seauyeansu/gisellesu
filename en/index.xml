@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gisellesu</title>
+    <link>http://localhost:1314/</link>
+    <description>Recent content on gisellesu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Blog</title>
+      <link>http://localhost:1314/posts/creating-a-new-theme/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/posts/creating-a-new-theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1314/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/about/</guid>
+      <description>I like to design and develop websites that are functionally and aesthetically pleasing.
+Languages that I speak include:
+ Javascript HTML CSS SASS Reactjs  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1314/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/contact/</guid>
+      <description>Say Hello @ gisellesu2@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1314/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/projects/</guid>
+      <description>Parent Social Platform (Work-in-Progress) https://kindergarten.nixray.de/
+Flight Seat Selector (Work-in-Progress) https://seauyeansu.github.io/flight-seat-selector/public/
+Timetable https://seauyeansu.github.io/Zeitplan/Index.html
+Personal Website Template http://www.gisellesu.com/dist/</description>
+    </item>
+    
+  </channel>
+</rss>
