@@ -3,75 +3,143 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1314/authors/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1314/authors/"
+                />
   </url>
   
   <url>
-    <loc>http://localhost:1313/authors/giselle-su/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1314/posts/creating-a-new-theme/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1314/authors/giselle-su/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/creating-a-new-theme/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1314/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1314/"
+                />
   </url>
   
   <url>
-    <loc>http://localhost:1313/series/hugo/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1314/series/hugo/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1314/posts/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/series/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1314/series/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1314/series/"
+                />
   </url>
   
   <url>
-    <loc>http://localhost:1313/series/theme/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1314/series/theme/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1314/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/%C3%BCber/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1314/about/"
+                />
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1314/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1314/categories/"
+                />
   </url>
   
   <url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1314/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1314/contact/"
+                />
   </url>
   
   <url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1314/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1314/projects/"
+                />
   </url>
   
   <url>
-    <loc>http://localhost:1313/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/%C3%BCber/</loc>
+    <loc>http://localhost:1314/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1314/tags/"
+                />
   </url>
   
 </urlset>

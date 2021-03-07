@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on gisellesu</title>
-    <link>http://localhost:1313/series/hugo/</link>
+    <link>http://localhost:1314/series/hugo/</link>
     <description>Recent content in Hugo on gisellesu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/series/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Blog</title>
-      <link>http://localhost:1313/posts/creating-a-new-theme/</link>
-      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <link>http://localhost:1314/posts/creating-a-new-theme/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/creating-a-new-theme/</guid>
-      <description>How many customers made how many orders</description>
+      <guid>http://localhost:1314/posts/creating-a-new-theme/</guid>
+      <description></description>
     </item>
     
   </channel>
