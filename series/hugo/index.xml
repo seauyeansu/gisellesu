@@ -2,18 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on gisellesu</title>
-    <link>http://localhost:1313/series/hugo/</link>
+    <link>http://www.gisellesu.com/series/hugo/</link>
     <description>Recent content in Hugo on gisellesu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://www.gisellesu.com/series/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Blog</title>
-      <link>http://localhost:1313/posts/creating-a-new-theme/</link>
+      <title>Group By and nunique with Pandas Python</title>
+      <link>http://www.gisellesu.com/posts/creating-a-new-theme/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/creating-a-new-theme/</guid>
-      <description>How many customers made how many orders</description>
+      <guid>http://www.gisellesu.com/posts/creating-a-new-theme/</guid>
+      <description>As a frequent Excel user, I have always wondered how things can be done differently with Pandas Python.
+A few weeks ago I received an interview test for a Junior Finance Manager position. In this test, I was provided with a table of data which contains the following columns:
+   Customer id Order date Order value Order id            I was asked to analyse the table of data and find out &amp;lsquo;how many customers made how many orders&amp;rsquo;.</description>
     </item>
     
   </channel>
