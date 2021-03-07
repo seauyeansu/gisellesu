@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on gisellesu</title>
-    <link>http://www.gisellesu.com/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Authors on gisellesu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://www.gisellesu.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Giselle Su</title>
-      <link>http://www.gisellesu.com/authors/giselle-su/</link>
+      <link>http://localhost:1313/authors/giselle-su/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.gisellesu.com/authors/giselle-su/</guid>
+      <guid>http://localhost:1313/authors/giselle-su/</guid>
       <description></description>
     </item>
     
